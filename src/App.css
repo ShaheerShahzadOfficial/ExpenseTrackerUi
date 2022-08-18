@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.mainDiv {
+  background: linear-gradient(
+    180deg,
+    rgba(216, 196, 197, 1) 0%,
+    rgba(148, 134, 134, 1) 50%,
+    rgba(61, 56, 53, 1) 70%,
+    rgba(0, 0, 0, 0.534) 100%
+  );
+}
+
+.mainDiv > div {
+  display: flex;
+  margin: auto;
+}
+.mainDiv > div > h2 {
+  margin-left: auto;
+  margin-right: 20px;
+  color: white;
+}
+.mainDiv > div > input::placeholder {
+  /* color: white; */
+  font-size: large;
+  font-weight: bolder;
+}
+.mainDiv > div > input {
+  /* background-color: transparent; */
+  /* margin: auto; */
+  margin-left: none;
+  margin-right: auto;
+  border-radius: 10px;
+  width: 40%;
+  padding: 20px;
+  /* color: white; */
+  border: 3px solid white;
+  font-size: large;
+  font-weight: bolder;
+}
+.AddTransaction {
+  cursor: pointer;
+  width: 10vmax;
+  border-radius: 30px;
+  font: 700 1vmax "Roboto";
+  border: 1px solid darkred;
+  padding: 1vmax;
+  background-color: darkred;
+  color: white;
+  margin: auto;
+}
+.upload {
+  border-radius: 30px;
+  cursor: pointer;
+  width: 10vmax;
+  padding: 1vmax;
+}
+.select {
+  background-color: transparent;
+  padding: 1vmax 4vmax;
+  color: white;
+  padding-right: 1vmax;
+  width: 50%;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font: 300 1.5vmax cursive;
+  outline: none;
+}
+option {
+  background-color: transparent;
+  color: black;
+}
